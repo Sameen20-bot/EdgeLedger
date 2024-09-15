@@ -16,14 +16,15 @@ html {
   background-color: rgb(51, 51, 51);
   padding: 20px;
   position: sticky;
-  top: 0; 
-  z-index: 1;}
+  top: 0;
+  z-index: 1;
+}
 
 .heady {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(51, 51, 51); 
+  background-color: rgb(51, 51, 51);
 }
 
 .header-hd {
@@ -59,7 +60,7 @@ html {
   flex-direction: row;
   color: white;
   list-style: none;
-}  
+}
 
 .lt {
   padding: 10px 15px;
@@ -67,7 +68,7 @@ html {
   text-decoration: none;
 }
 
-.lt:hover{
+.lt:hover {
   cursor: pointer;
   /* padding: 10px; */
   background-color: rgb(147, 203, 82);
@@ -96,6 +97,8 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 2rem;
+  text-align: center;
 }
 
 .cart-head {
@@ -122,46 +125,45 @@ html {
 
 .cart-btn:hover {
   cursor: pointer;
-  background-color: rgb(106, 177, 25)
+  background-color: rgb(106, 177, 25);
 }
 
 /* what */
 
-.text{
+.text {
   padding: 15px;
   font-size: 1.5rem;
-  color:  rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
   text-align: center;
 }
 
-.wht-spn{
-  color:rgb(147, 203, 82); 
+.wht-spn {
+  color: rgb(147, 203, 82);
 }
 
 .what-things {
-  color:  rgb(51, 51, 51);;
+  color: rgb(51, 51, 51);
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .thng {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px 5px;
 }
 
-
 .thng-para {
-  color: rgb(51, 51, 51);;
-  width: 70%;
+  color: rgb(51, 51, 51);
+  width: 100%;
   text-align: left;
 }
 
-.i-thng{
+.i-thng {
   margin-left: 115px;
   font-size: 34px;
   background-color: rgb(147, 203, 82);
@@ -169,8 +171,8 @@ html {
   border-radius: 50%;
 }
 
-.txt{
-  padding-left: 20px;
+.txt {
+  padding-left: 10px;
 }
 
 /* who */
@@ -189,7 +191,7 @@ html {
 .photo2 {
   width: 100%;
   display: block;
-  height: 60vh;
+  height: 70vh;
 }
 
 .abt-txt {
@@ -199,7 +201,7 @@ html {
   text-align: center;
   padding: 22px 50px;
   box-sizing: border-box;
-  height: 60vh;
+  height: 70vh;
 }
 
 .abt-head {
@@ -219,17 +221,17 @@ html {
   text-align: left;
 }
 
-.abt-head3{
+.abt-head3 {
   color: white;
   text-align: left;
 }
 
-.team{
+.team {
   color: white;
   text-align: left;
-}  
+}
 
-.team-link{
+.team-link {
   color: white;
   list-style: none;
   padding-top: 10px;
@@ -238,36 +240,36 @@ html {
 
 /* client */
 
-.clients{
+.clients {
   margin-top: 100px;
 }
-.client-head{
+.client-head {
   padding-bottom: 20px;
   text-align: center;
   font-size: 32px;
   color: rgb(51, 51, 51);
 }
 
-.client-spn{
+.client-spn {
   color: rgb(147, 203, 82);
 }
 
-.client-logo{
+.client-logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.log{
-  height: 120px;
-  padding: 0px 40px;
+.log {
+  height: 100px;
+  padding: 0px 20px;
 }
 
 /* <!-- contact-form --> */
 
 .cont-form {
   width: 100%;
-  height: 450px; 
+  height: 450px;
   display: flex;
   margin-top: 50px;
   overflow: hidden;
@@ -278,49 +280,47 @@ html {
   background-color: rgb(147, 203, 82);
   padding: 20px 35px;
   width: 40%;
-  height: 100%; 
+  height: 100%;
 }
 
 .map {
   width: 60%;
-  height: 100%; 
+  height: 100%;
 }
 
 .map iframe {
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
-
-
-.form-txt{
+.form-txt {
   color: white;
 }
 
-.form-head{
+.form-head {
   font-size: 32px;
 }
 
-.lbl{
+.lbl {
   color: white;
   padding-top: 10px;
 }
 
-.inp{
+.inp {
   width: 100%;
   padding: 5px 10px;
 }
 
-.area{
+.area {
   width: 100%;
   padding: 5px 10px;
 }
 
-.btn-container{
+.btn-container {
   margin-top: 8px;
 }
 
-.form-btn{
+.form-btn {
   width: 100%;
   color: white;
   background-color: #333;
@@ -328,21 +328,54 @@ html {
   padding: 5px 0px;
 }
 
-.form-btn:hover{
+.form-btn:hover {
   cursor: pointer;
 }
 
-
 /* footer */
 
-.foot{
+.foot {
   margin: 0;
   background: #444;
   color: #fff;
   padding: 30px;
 }
 
-.footp{
+.footp {
   text-align: center;
+}
+
+/* Some issue occur so I write the media query here */
+@media (max-width: 971px) {
+  .what-things {
+    display: block;
+  }
+}
+
+@media (max-width: 860px) {
+  .what-things {
+    display: inline-block;
+  }
+
+  .about {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .abt-img {
+    float: none;
+    width: 100%;
+  }
+
+  .abt-txt {
+    float: none;
+    width: 100%;
+  }
+
+  .clients {
+    margin-top: 50px;
+  }
 }
 
